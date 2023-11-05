@@ -41,6 +41,17 @@ const countriesFind=countries.findIndex((country)=>country=="Norway")
 console.log(countriesFind)
 const countriesFind2=countries.findIndex((country)=>country=="Russia")
 console.log(countriesFind2)
+let num=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+function reverse(array){
+    let array2=[]
+    let x=array.length-1
+    for(i=0; i<=array.length-1; i++){
+    item=array[x]
+    array2.push(item)
+    x--}
+    return array2
+}
+console.log(reverse(num))
 // const sides=[2,3,4,6,7,8]
 // let area=(sides)=>{
 //     return sides*sides
